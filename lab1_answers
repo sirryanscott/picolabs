@@ -1,0 +1,8 @@
+1. Create new channel and send event. Do you get the same result on both? Yes, each channel must use the same ruleset on the pico.
+
+2. Delete and resend. What happens? Get this error: {"error":"ECI not found: 8Psw5hnwkPgD8V5V5Zrv9i"}. The channel wasn't found and so the request couldn't be processed
+
+3. Send the misspelled event. What happens? Empty directives are returned. Because the 'ecco' could not be found it could not process the request, resulting in an empty response.
+
+
+
